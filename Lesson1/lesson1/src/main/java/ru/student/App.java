@@ -7,7 +7,10 @@ public class App {
         // Task1.runTask();
 
         // Вывести все простые числа от 1 до 1000
-        Task2.runTask();
+        // Task2.runTask();
+
+        // Реализовать простой калькулятор
+        Task3.runTask();
     }
 
 }
