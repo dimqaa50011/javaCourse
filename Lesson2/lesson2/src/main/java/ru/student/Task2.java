@@ -7,6 +7,9 @@ import java.util.logging.FileHandler;
 import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 
+// Реализуйте алгоритм сортировки пузырьком числового массива,
+// результат после каждой итерации запишите в лог-файл.
+
 public class Task2 {
     private static String logFile = "task2LogFile.log";
     private static Logger logger;

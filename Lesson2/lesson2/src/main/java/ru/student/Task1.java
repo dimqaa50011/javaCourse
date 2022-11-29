@@ -45,7 +45,7 @@ public class Task1 {
             if (!params[params.length - 1].equals("\"null\""))
                 paramsQuery.add(String.join("=", params));
         }
-        sb.append(String.join(" ", paramsQuery));
+        sb.append(String.join(" AND ", paramsQuery));
         sb.append(";");
         return sb.toString();
 
