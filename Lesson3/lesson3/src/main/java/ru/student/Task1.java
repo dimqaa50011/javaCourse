@@ -4,6 +4,9 @@ import java.util.Arrays;
 
 public class Task1 {
     public static void run() {
+        // Реализовать алгоритм сортировки слиянием.
+
+        
         int[] arr = Helper.createArr(Helper.inputArg("Введите длину массива"),
                 Helper.inputArg("Введите максимально значение элемента массива"));
 
