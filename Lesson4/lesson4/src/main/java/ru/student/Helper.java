@@ -13,4 +13,13 @@ public class Helper {
         }
         return list;
     }
+
+    public static boolean isDigit(String s) {
+        try {
+            Integer.parseInt(s);
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
+    }
 }
