@@ -38,6 +38,7 @@ public class App {
                 int firstEl = customQueue.first();
                 System.out.printf("Первый элемент в очереди = %d\n", firstEl);
             } else if (request.equals("q")) {
+                scan.close();
                 System.out.println("Программа завершила свою работу");
                 return;
             } else
