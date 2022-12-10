@@ -4,6 +4,8 @@ public class App {
     public static void main(String[] args) {
 
         phomeBookStarter();
+        System.out.println();
+        RepeatName.run();
     }
 
     private static void phomeBookStarter() {
