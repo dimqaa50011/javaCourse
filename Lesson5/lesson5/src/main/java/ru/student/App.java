@@ -3,9 +3,11 @@ package ru.student;
 public class App {
     public static void main(String[] args) {
 
-        phomeBookStarter();
-        System.out.println();
-        RepeatName.run();
+//        phomeBookStarter();
+//        System.out.println();
+//        RepeatName.run();
+//        System.out.println();
+        HeapSort.run();
     }
 
     private static void phomeBookStarter() {
